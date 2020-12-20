@@ -1,0 +1,16 @@
+https://github.com/a0916105/16LAB-Android-Kotlin.git
+
+…or create a new repository on the command line
+
+echo "# 16LAB-Android-Kotlin" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/a0916105/16LAB-Android-Kotlin.git
+git push -u origin master
+                
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/a0916105/16LAB-Android-Kotlin.git
+git push -u origin master

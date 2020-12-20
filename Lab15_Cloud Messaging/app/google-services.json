@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "944763046195",
+    "firebase_url": "https://lab15-37ca4.firebaseio.com",
+    "project_id": "lab15-37ca4",
+    "storage_bucket": "lab15-37ca4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944763046195:android:31003f0b7e8e7973249646",
+        "android_client_info": {
+          "package_name": "com.jew.lab15"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "944763046195-8q7ki3ouo0j0ngptktlps5tjms0rag5s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANdaYPJG54JAQXyUqZeymPTi12_AvaNs4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "944763046195-8q7ki3ouo0j0ngptktlps5tjms0rag5s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

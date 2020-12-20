@@ -1,0 +1,22 @@
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.4.0'
+    id 'application'
+}
+group = 'me.jew'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+dependencies {
+    implementation 'com.google.code.gson:gson:2.8.5'
+    testImplementation 'org.jetbrains.kotlin:kotlin-test-junit'
+}
+tasks.withType(KotlinCompile) {
+    kotlinOptions.jvmTarget = '1.8'
+}
+application {
+    mainClassName = 'MainKt'
+}
